@@ -1,0 +1,17 @@
+[
+	{
+		"TimeID" : 0,
+		"DateTime" : "2014-12-31 23:00:00",
+		"At_day_time" : 1
+	},
+	{
+		"TimeID" : 1,
+		"DateTime" : "2013-12-31 23:00:00",
+		"At_day_time" : 0
+	},
+	{
+		"TimeID" : 2,
+		"DateTime" : "2016-12-31 23:00:00",
+		"At_day_time" : 1
+	}
+]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form>
+    <p align="center"><b><font size="5" color="CadetBlue">Search in comment field</font></b>
+    <p align="center"><b>Your word</b><br><input type="text" name="NW" style="width: 200px"></p>
+    <p align="center"><input type="button" value="No that word" onClick="location.href='not_word?column='+'comment'+'&word='+this.form.NW.value" style="width: 200px; height: 30px"></p>
+
+    <br>
+    <p align="center"><b>Your phrase</b><br><input type="text" name="PH" style="width: 200px"></p>
+    <p align="center"><input type="button" value="Search phrase" onClick="location.href='phrase?column='+'comment'+'&phrase='+this.form.PH.value" style="width: 200px; height: 30px"></p>
+
+
+    <br>
+    <p align="center"><b><font size="5" color="CadetBlue">Search in name field</font></b><br>
+    <p align="center"><b>Your word</b><br><input type="text" name="NW_nm" style="width: 200px"></p>
+    <p align="center"><input type="button" value="No that word" onClick="location.href='not_word?column='+'name'+'&word='+this.form.NW_nm.value" style="width: 200px; height: 30px"></p>
+
+    <br>
+    <p align="center"><b>Your phrase</b><br><input type="text" name="PH_nm" style="width: 200px"></p>
+    <p align="center"><input type="button" value="Search phrase" onClick="location.href='phrase?column='+'name'+'&phrase='+this.form.PH_nm.value" style="width: 200px; height: 30px"></p>
+
+</form>
+</body>
+</html>

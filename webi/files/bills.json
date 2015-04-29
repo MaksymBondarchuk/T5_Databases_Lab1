@@ -1,0 +1,32 @@
+[
+	{
+		"BillID" : 0,
+		"Amount" : 100,
+		"Average_amount_for_month" : 150
+	},
+	{
+		"BillID" : 1,
+		"Amount" : 200,
+		"Average_amount_for_month" : 250
+	},
+	{
+		"BillID" : 2,
+		"Amount" : 300,
+		"Average_amount_for_month" : 350
+	},
+	{
+		"BillID" : 3,
+		"Amount" : 400,
+		"Average_amount_for_month" : 450
+	},
+	{
+		"BillID" : 4,
+		"Amount" : 500,
+		"Average_amount_for_month" : 550
+	},
+	{
+		"BillID" : 5,
+		"Amount" : 600,
+		"Average_amount_for_month" : 650
+	}
+]

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style type="text/css">
+    table.curvedEdges { border:10px solid RoyalBlue;-webkit-border-radius:13px;-moz-border-radius:13px;-ms-border-radius:13px;-o-border-radius:13px;border-radius:13px; }
+    table.curvedEdges td, table.curvedEdges th { border-bottom:1px dotted black;padding:5px; }
+    </style>
+
+</head>
+<body>
+    <table class="curvedEdges" align="center">
+    {% for i in table %}
+    <tr>
+        {% if forloop.first %}
+            <th>{{i.0}}<br></th>
+            <th>{{i.1}}<br></th>
+            <th>{{i.2}}<br></th>
+        {% else %}
+            <td>{{i.0}}<br></td>
+            <td>{{i.1}}<br></td>
+            <td>{{i.2}}<br></td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+    </table>
+</body>
+</html>

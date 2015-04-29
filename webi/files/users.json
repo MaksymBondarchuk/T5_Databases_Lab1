@@ -1,0 +1,32 @@
+[
+	{
+		"UserID" : 0,
+		"Name" : "George Washington",
+		"Comment" : "First President"
+	},
+	{
+		"UserID" : 1,
+		"Name" : "John Adams",
+		"Comment" : "Second "
+	},
+	{
+		"UserID" : 2,
+		"Name" : "Thomas Jefferson",
+		"Comment" : "Third"
+	},
+	{
+		"UserID" : 3,
+		"Name" : "James Madison",
+		"Comment" : "4th President of the USA"
+	},
+	{
+		"UserID" : 4,
+		"Name" : "James Monroe",
+		"Comment" : "5th"
+	},
+	{
+		"UserID" : 5,
+		"Name" : "John Quincy Adams",
+		"Comment" : "6th"
+	}
+]

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form>
+     <p align="center"><b>Table to load</b><br><select id='menu' name="menu" size="1">
+        <option selected="selected" value="Users">Users</option>
+        <option value="Bills">Bills</option>
+        <option value="Times">Times</option>
+    </select></p>
+    <p align="center"><b>File name without ".json" (must located in folder "files")</b><br><input type="text" name="File_name" style="width: 200px"></p>
+    <p align="center"><input type="button" value="Load" onClick="location.href='file_load?file='+this.form.File_name.value+'.json&table='+document.getElementById('menu').value" style="width: 100px; height: 30px"></p>
+</form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form>
+    <p align="center"><b><font size="5" color="CadetBlue">Search times at day</font></b>
+    <p align="center"><b>Bool value (1 or 0)</b><br><input type="text" name="B" style="width: 200px"></p>
+    <p align="center"><input type="button" value="Bool search" onClick="location.href='bool?bool='+this.form.B.value" style="width: 200px; height: 30px"></p>
+
+    <br>
+    <p align="center"><b><font size="5" color="CadetBlue">Search by date range</font></b>
+    <p align="center"><b>Start point (yyyy.mm.dd)</b><br><input type="text" name="T1" style="width: 200px"></p>
+    <p align="center"><b>End point (yyyy.mm.dd)</b><br><input type="text" name="T2" style="width: 200px"></p>
+    <p align="center"><input type="button" value="Date search" onClick="location.href='date?start='+this.form.T1.value+'&end='+this.form.T2.value" style="width: 200px; height: 30px"></p>
+</form>
+</body>
+</html>
